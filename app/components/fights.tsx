@@ -2,13 +2,27 @@
 import styles from '../components/fights.module.css';
 import Form from './form';
 import { useState } from 'react';
+import { getAnswerVariations } from '../helpers/getAnswerVariations';
 
 export default function Fights({ fightInfo }) {
   const [attempts, setAttempts] = useState(5);
+  const [guess, setGuess] = useState('');
+  const [finished, setFinished] = useState(false);
+  const fighter = fightInfo[0].fighter;
+
+  let acceptableAnswers = getAnswerVariations(fighter);
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    setAttempts(attempts - 1);
+    setAttempts(() => attempts - 1);
+    let result = acceptableAnswers.includes(guess.toLowerCase());
+    setGuess('');
+    if (result || attempts == 1) {
+      setFinished(true);
+    }
   };
+
+  // TO DO: Check guess against fighter name
 
   return (
     <main className={styles.main}>
@@ -16,16 +30,27 @@ export default function Fights({ fightInfo }) {
         fighter={fightInfo[0].fighter}
         attempts={attempts}
         handleSubmit={handleSubmit}
+        guess={guess}
+        setGuess={setGuess}
+        finished={finished}
       />
-
+      <div
+        className={
+          finished == false
+            ? `${styles.hiddenAnswer}`
+            : `${styles.answer}`
+        }
+      >
+        <h2>{finished ? fighter : ''}</h2>
+      </div>
       {fightInfo.map((f, i) => (
         <div className={styles.container} key={i}>
-          <span>{i + 1}</span>
+          <span>{i + 1}.</span>
           <div className={styles.wrapper}>
             <div className={styles.fighterWrapper}>
               <span
                 className={
-                  attempts > 4 ? `${styles.hidden}` : `${styles.show}`
+                  attempts > 3 ? `${styles.hidden}` : `${styles.show}`
                 }
               >
                 {f.winner == f.fighter ? 'WIN' : 'LOSS'}
@@ -41,7 +66,7 @@ export default function Fights({ fightInfo }) {
               <div>
                 <span
                   className={
-                    attempts > 3
+                    attempts > 2
                       ? `${styles.hidden}`
                       : `${styles.show}`
                   }
@@ -52,7 +77,7 @@ export default function Fights({ fightInfo }) {
               <div>
                 <span
                   className={
-                    attempts > 2
+                    attempts > 1
                       ? `${styles.hidden}`
                       : `${styles.show}`
                   }

@@ -1,6 +1,13 @@
 import styles from '../components/form.module.css';
 
-export default function Form({ fighter, attempts, handleSubmit }) {
+export default function Form({
+  fighter,
+  attempts,
+  handleSubmit,
+  guess,
+  setGuess,
+  finished,
+}) {
   return (
     <div className={styles.formWrapper}>
       <form className={styles.form} onSubmit={handleSubmit}>
@@ -8,11 +15,18 @@ export default function Form({ fighter, attempts, handleSubmit }) {
           <input
             className={styles.input}
             type="text"
+            name="guess"
+            value={guess}
+            onChange={(event) => setGuess(event.target.value)}
             placeholder="eg: Alex Pereira"
           ></input>
         </div>
         <div>
-          <button className={styles.button} type="submit">
+          <button
+            className={styles.button}
+            type="submit"
+            disabled={finished}
+          >
             Submit
           </button>
         </div>

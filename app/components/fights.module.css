@@ -21,15 +21,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   /* text-align: center; */
-  margin: 1rem;
+  margin: 0.5rem 0;
 }
 
 .fightInfoWrapper {
   font-weight: 100;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 0.5rem 0;
   gap: 1rem 0;
@@ -40,6 +41,35 @@
   flex-direction: column;
 }
 
+.hiddenAnswer {
+  display: none;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.answer > h2 {
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073,
+      0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+      0 0 80px #ff4da6;
+  }
+}
 /* .flightInfoWrapper > div {
   display: flex;
   flex-direction: column;
