@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+```
+git clone https://github.com/drenchoman/five-fights.git
+cd fight-fights
+npm install
+```
+
 First, run the development server:
 
 ```bash
