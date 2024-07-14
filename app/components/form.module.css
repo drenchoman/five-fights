@@ -1,0 +1,24 @@
+.formWrapper {
+  margin: 0.5rem 0;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.input {
+  height: 35px;
+  width: 240px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.button {
+  width: 90px;
+  height: 35px;
+  margin: 0.5rem;
+}
+
+.attempts {
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+}

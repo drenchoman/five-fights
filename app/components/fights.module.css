@@ -1,13 +1,16 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  margin: 0.5rem;
   justify-content: center;
+  width: 100%;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .hidden {
@@ -18,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* text-align: center; */
   margin: 1rem;
 }
 
@@ -27,8 +31,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   gap: 1rem 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 /* .flightInfoWrapper > div {

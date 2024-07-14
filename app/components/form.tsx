@@ -1,17 +1,25 @@
+import styles from '../components/form.module.css';
+
 export default function Form({ fighter, attempts, handleSubmit }) {
   return (
-    <div>
-      <div>
-        <form onSubmit={handleSubmit}>
-          <span>Attempts: {attempts}</span>
-          <div>
-            <input type="text" placeholder="eg: Alex Pereira"></input>
-          </div>
-          <div>
-            <button type="submit">Submit</button>
-          </div>
-        </form>
-      </div>
+    <div className={styles.formWrapper}>
+      <form className={styles.form} onSubmit={handleSubmit}>
+        <div>
+          <input
+            className={styles.input}
+            type="text"
+            placeholder="eg: Alex Pereira"
+          ></input>
+        </div>
+        <div>
+          <button className={styles.button} type="submit">
+            Submit
+          </button>
+        </div>
+      </form>
+      <span className={styles.attempts}>
+        Attempts Remaining: {attempts}
+      </span>
     </div>
   );
 }
