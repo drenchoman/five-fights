@@ -1,13 +1,14 @@
-export default function Form() {
+export default function Form({ fighter, attempts, handleSubmit }) {
   return (
     <div>
       <div>
-        <form>
+        <form onSubmit={handleSubmit}>
+          <span>Attempts: {attempts}</span>
           <div>
             <input type="text" placeholder="eg: Alex Pereira"></input>
           </div>
           <div>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </div>
         </form>
       </div>
