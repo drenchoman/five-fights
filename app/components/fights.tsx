@@ -4,7 +4,12 @@ import Form from './form';
 import { useState } from 'react';
 import { getAnswerVariations } from '../helpers/getAnswerVariations';
 
-export default function Fights({ fightInfo, fighter }) {
+type Fight = {
+  fightInfo: any;
+  fighter: string;
+};
+
+export default function Fights({ fightInfo, fighter }: Fight) {
   const [attempts, setAttempts] = useState(5);
   const [guess, setGuess] = useState('');
   const [finished, setFinished] = useState(false);
