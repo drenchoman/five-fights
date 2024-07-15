@@ -53,11 +53,5 @@ function filterFights(data: any, fighter: string) {
 export default async function Home() {
   const { fightInfo, fighter } = await getFighterData();
 
-  return (
-    <Fights
-      fightInfo={fightInfo}
-      fighter={fighter}
-      fallback={<ErrorPage />}
-    />
-  );
+  return <Fights fightInfo={fightInfo} fighter={fighter} />;
 }
