@@ -6,7 +6,7 @@ import { getFighterFromJson } from './helpers/getFighterFromJson';
 async function getFighterData() {
   const fighter = await getFighterFromJson();
   const res = await fetch(
-    `https://ufc-d1.p.rapidapi.com/Events/FindEventsByFighterName/${fighter}?limit=30`,
+    `https://${process.env.RAPID_API_HOST}/Events/FindEventsByFighterName/${fighter}?limit=30`,
     {
       next: { revalidate: 86400 },
       headers: {
