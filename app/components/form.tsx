@@ -1,5 +1,12 @@
 import styles from '../components/form.module.css';
-
+type Fighter = {
+  fighter: string;
+  attempts: number;
+  handleSubmit: any;
+  guess: string;
+  setGuess: any;
+  finished: boolean;
+};
 export default function Form({
   fighter,
   attempts,
@@ -7,7 +14,7 @@ export default function Form({
   guess,
   setGuess,
   finished,
-}) {
+}: Fighter) {
   return (
     <div className={styles.formWrapper}>
       <form className={styles.form} onSubmit={handleSubmit}>
