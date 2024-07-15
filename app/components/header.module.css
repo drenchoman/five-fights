@@ -14,3 +14,15 @@
   font-size: 1rem;
   font-weight: 200;
 }
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: -0.25rem;
+  right: 7rem;
+}

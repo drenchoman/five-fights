@@ -4,15 +4,15 @@ import Form from './form';
 import { useState } from 'react';
 import { getAnswerVariations } from '../helpers/getAnswerVariations';
 
-export default function Fights({ fightInfo }) {
+export default function Fights({ fightInfo, fighter }) {
   const [attempts, setAttempts] = useState(5);
   const [guess, setGuess] = useState('');
   const [finished, setFinished] = useState(false);
-  const fighter = fightInfo[0].fighter;
 
+  // Get answer variations for guess
   let acceptableAnswers = getAnswerVariations(fighter);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     setAttempts(() => attempts - 1);
     let result = acceptableAnswers.includes(guess.toLowerCase());
@@ -22,12 +22,10 @@ export default function Fights({ fightInfo }) {
     }
   };
 
-  // TO DO: Check guess against fighter name
-
   return (
     <main className={styles.main}>
       <Form
-        fighter={fightInfo[0].fighter}
+        fighter={fighter}
         attempts={attempts}
         handleSubmit={handleSubmit}
         guess={guess}
@@ -43,7 +41,7 @@ export default function Fights({ fightInfo }) {
       >
         <h2>{finished ? fighter : ''}</h2>
       </div>
-      {fightInfo.map((f, i) => (
+      {fightInfo.map((f: any, i: number) => (
         <div className={styles.container} key={i}>
           <span>{i + 1}.</span>
           <div className={styles.wrapper}>

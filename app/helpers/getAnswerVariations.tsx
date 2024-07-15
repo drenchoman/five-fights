@@ -1,4 +1,4 @@
-export function getAnswerVariations(fighter) {
+export function getAnswerVariations(fighter: string) {
   let split = fighter.split(' ');
   split.push(fighter);
   let acceptableAnswers = split.map((answer) => answer.toLowerCase());
