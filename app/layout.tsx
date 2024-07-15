@@ -5,6 +5,7 @@ import Header from './components/header';
 import Faq from './components/faq';
 import Footer from './components/footer';
 import styles from './page.module.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           {children}
           <Faq />
           <Footer />
+          <Analytics />
         </main>
       </body>
     </html>

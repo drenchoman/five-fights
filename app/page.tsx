@@ -1,5 +1,4 @@
 import Fights from './components/fights';
-import ErrorPage from './error';
 import { randomIntFromInterval } from './helpers/randomIntFromInterval';
 import { getFighterFromJson } from './helpers/getFighterFromJson';
 
