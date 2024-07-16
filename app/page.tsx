@@ -5,7 +5,7 @@ import { getFighterFromJson } from './helpers/getFighterFromJson';
 async function getFighterData() {
   const fighter = await getFighterFromJson();
   const res = await fetch(
-    `https://${process.env.RAPID_API_HOST}/Events/FindEventsByFighterName/${fighter}?limit=30`,
+    `https://${process.env.RAPID_API_HOST}/Events/FindEventsByFighterName/${fighter.fighter}?limit=30`,
     {
       next: { revalidate: 86400 },
       headers: {
@@ -25,7 +25,7 @@ async function getFighterData() {
   }
 
   const data = await res.json();
-  const fightInfo = filterFights(data, fighter);
+  const fightInfo = filterFights(data, fighter.fighter);
 
   return { fightInfo, fighter };
 }
@@ -52,5 +52,11 @@ function filterFights(data: any, fighter: string) {
 export default async function Home() {
   const { fightInfo, fighter } = await getFighterData();
 
-  return <Fights fightInfo={fightInfo} fighter={fighter} />;
+  return (
+    <Fights
+      fightInfo={fightInfo}
+      fighterName={fighter.fighter}
+      fighterNation={fighter.nation}
+    />
+  );
 }

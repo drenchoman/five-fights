@@ -6,16 +6,21 @@ import { getAnswerVariations } from '../helpers/getAnswerVariations';
 
 type Fight = {
   fightInfo: any;
-  fighter: string;
+  fighterName: string;
+  fighterNation: string;
 };
 
-export default function Fights({ fightInfo, fighter }: Fight) {
+export default function Fights({
+  fightInfo,
+  fighterName,
+  fighterNation,
+}: Fight) {
   const [attempts, setAttempts] = useState(5);
   const [guess, setGuess] = useState('');
   const [finished, setFinished] = useState(false);
 
   // Get answer variations for guess
-  let acceptableAnswers = getAnswerVariations(fighter);
+  let acceptableAnswers = getAnswerVariations(fighterName);
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
@@ -30,7 +35,7 @@ export default function Fights({ fightInfo, fighter }: Fight) {
   return (
     <main className={styles.main}>
       <Form
-        fighter={fighter}
+        fighter={fighterName}
         attempts={attempts}
         handleSubmit={handleSubmit}
         guess={guess}
@@ -44,7 +49,8 @@ export default function Fights({ fightInfo, fighter }: Fight) {
             : `${styles.answer}`
         }
       >
-        <h2>{finished ? fighter : ''}</h2>
+        <h2>{finished ? fighterName : ''}</h2>
+        <span>{fighterNation}</span>
       </div>
       {fightInfo.map((f: any, i: number) => (
         <div className={styles.container} key={i}>
