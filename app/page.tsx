@@ -7,7 +7,7 @@ async function getFighterData() {
   const res = await fetch(
     `https://${process.env.RAPID_API_HOST}/Events/FindEventsByFighterName/${fighter.fighter}?limit=30`,
     {
-      next: { revalidate: 86400 },
+      next: { revalidate: 43200 },
       headers: {
         'Content-Type': 'application/json',
         'x-rapidapi-key': process.env.RAPID_API_KEY
