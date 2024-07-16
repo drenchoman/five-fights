@@ -7,11 +7,11 @@ const faqs: Faqs[] = [
   {
     question: 'How do I play?',
     answer:
-      'You have five attempts to guess the UFC fighter. After the 2nd attempt and each attempt after, you will be given a hint.',
+      'You have five attempts to guess the UFC fighter from their previous fights. After the 2nd attempt and each attempt after, you will be given a hint.',
   },
   {
     question: 'When does it update?',
-    answer: 'Whenever I get it working.',
+    answer: 'The fighter updates every 12 hours.',
   },
   {
     question: 'Why does X not work?',
