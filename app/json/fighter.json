@@ -1,866 +1,318 @@
 [
-  {
-    "Fighter": "Joe Solecki"
-  },
-  {
-    "Fighter": "Devonte Smith"
-  },
-  {
-    "Fighter": "Douglas Silva de Andrade"
-  },
-  {
-    "Fighter": "Stephanie Egger"
-  },
-  {
-    "Fighter": "Alejandro Perez"
-  },
-  {
-    "Fighter": "Nick Diaz"
-  },
-  {
-    "Fighter": "Shamil Abdurakhimov"
-  },
-  {
-    "Fighter": "Cody Brundage"
-  },
-  {
-    "Fighter": "Arman Tsarukyan"
-  },
-  {
-    "Fighter": "Nate Maness"
-  },
-  {
-    "Fighter": "Rong Zhu"
-  },
-  {
-    "Fighter": "Erin Blanchfield"
-  },
-  {
-    "Fighter": "Paddy Pimblett"
-  },
-  {
-    "Fighter": "Bryan Battle"
-  },
-  {
-    "Fighter": "Ricky Turcios"
-  },
-  {
-    "Fighter": "Andre Petroski"
-  },
-  {
-    "Fighter": "Makhmud Muradov"
-  },
-  {
-    "Fighter": "JJ Aldrich"
-  },
-  {
-    "Fighter": "Mana Martinez"
-  },
-  {
-    "Fighter": "Parker Porter"
-  },
-  {
-    "Fighter": "Trevin Jones"
-  },
-  {
-    "Fighter": "Vinc Pichel"
-  },
-  {
-    "Fighter": "Austin Lingo"
-  },
-  {
-    "Fighter": "Bea Malecki"
-  },
-  {
-    "Fighter": "Sasha Palatnikov"
-  },
-  {
-    "Fighter": "Vince Morales"
-  },
-  {
-    "Fighter": "Niklas Stolze"
-  },
-  {
-    "Fighter": "Collin Anglin"
-  },
-  {
-    "Fighter": "Jinh Yu Frey"
-  },
-  {
-    "Fighter": "Ryan Benoit"
-  },
-  {
-    "Fighter": "Phil Rowe"
-  },
-  {
-    "Fighter": "Miranda Maverick"
-  },
-  {
-    "Fighter": "Nassourdine Imavov"
-  },
-  {
-    "Fighter": "Mickey Gall"
-  },
-  {
-    "Fighter": "Julio Arce"
-  },
-  {
-    "Fighter": "Khalid Taha"
-  },
-  {
-    "Fighter": "Alan Baudot"
-  },
-  {
-    "Fighter": "Irene Aldana"
-  },
-  {
-    "Fighter": "Ryan Hall"
-  },
-  {
-    "Fighter": "Jennifer Maia"
-  },
-  {
-    "Fighter": "Zhalgas Zhumagulov"
-  },
-  {
-    "Fighter": "Ciryl Gane"
-  },
-  {
-    "Fighter": "Yancy Medeiros"
-  },
-  {
-    "Fighter": "Chan Sung Jung"
-  },
-  {
-    "Fighter": "Wellington Turman"
-  },
-  {
-    "Fighter": "Matt Brown"
-  },
-  {
-    "Fighter": "Aleksa Camur"
-  },
-  {
-    "Fighter": "Kanako Murata"
-  },
-  {
-    "Fighter": "Khaos Williams"
-  },
-  {
-    "Fighter": "Joaquim Silva"
-  },
-  {
-    "Fighter": "Casey O'Neill"
-  },
-  {
-    "Fighter": "Leon Edwards"
-  },
-  {
-    "Fighter": "Matt Frevola"
-  },
-  {
-    "Fighter": "Fares Ziam"
-  },
-  {
-    "Fighter": "Walt Harris"
-  },
-  {
-    "Fighter": "Dusko Todorovic"
-  },
-  {
-    "Fighter": "Manon Fiorot"
-  },
-  {
-    "Fighter": "Claudio Puelles"
-  },
-  {
-    "Fighter": "Yan Xiaonan"
-  },
-  {
-    "Fighter": "Justin Tafa"
-  },
-  {
-    "Fighter": "Court McGee"
-  },
-  {
-    "Fighter": "Josh Culibao"
-  },
-  {
-    "Fighter": "David Dvorak"
-  },
-  {
-    "Fighter": "Rafael Alves"
-  },
-  {
-    "Fighter": "Shane Burgos"
-  },
-  {
-    "Fighter": "Jacare Souza"
-  },
-  {
-    "Fighter": "Jordan Wright"
-  },
-  {
-    "Fighter": "Donald Cerrone"
-  },
-  {
-    "Fighter": "Ludovit Klein"
-  },
-  {
-    "Fighter": "Christian Aguilera"
-  },
-  {
-    "Fighter": "Kai Kamaka"
-  },
-  {
-    "Fighter": "Poliana Botelho"
-  },
-  {
-    "Fighter": "Andreas Michailidis"
-  },
-  {
-    "Fighter": "Zhang Weili"
-  },
-  {
-    "Fighter": "Dwight Grant"
-  },
-  {
-    "Fighter": "Pat Sabatini"
-  },
-  {
-    "Fighter": "Kazula Vargas"
-  },
-  {
-    "Fighter": "Aori Qileng"
-  },
-  {
-    "Fighter": "Na Liang"
-  },
-  {
-    "Fighter": "Jessica Penne"
-  },
-  {
-    "Fighter": "Bartosz Fabinski"
-  },
-  {
-    "Fighter": "Tony Gravely"
-  },
-  {
-    "Fighter": "Arnold Allen"
-  },
-  {
-    "Fighter": "Nina Nunes"
-  },
-  {
-    "Fighter": "Scott Holtzman"
-  },
-  {
-    "Fighter": "John Makdessi"
-  },
-  {
-    "Fighter": "Luis Saldana"
-  },
-  {
-    "Fighter": "Da-Un Jung"
-  },
-  {
-    "Fighter": "Jared Gooden"
-  },
-  {
-    "Fighter": "Song Kenan"
-  },
-  {
-    "Fighter": "Jonathan Martinez"
-  },
-  {
-    "Fighter": "Angela Hill"
-  },
-  {
-    "Fighter": "Charles Jourdain"
-  },
-  {
-    "Fighter": "Rani Yahya"
-  },
-  {
-    "Fighter": "Gloria de Paula"
-  },
-  {
-    "Fighter": "Jan Blachowicz"
-  },
-  {
-    "Fighter": "Dominick Cruz"
-  },
-  {
-    "Fighter": "Rogerio Bontorin"
-  },
-  {
-    "Fighter": "Livinha Souza"
-  },
-  {
-    "Fighter": "Mario Bautista"
-  },
-  {
-    "Fighter": "Nikita Krylov"
-  },
-  {
-    "Fighter": "Alexis Davis"
-  },
-  {
-    "Fighter": "Vince Cachero"
-  },
-  {
-    "Fighter": "Shana Dobson"
-  },
-  {
-    "Fighter": "Aiemann Zahabi"
-  },
-  {
-    "Fighter": "Serghei Spivac"
-  },
-  {
-    "Fighter": "Maycee Barber"
-  },
-  {
-    "Fighter": "Kelvin Gastelum"
-  },
-  {
-    "Fighter": "Gabe Green"
-  },
-  {
-    "Fighter": "SeungWoo Choi"
-  },
-  {
-    "Fighter": "Brad Tavares"
-  },
-  {
-    "Fighter": "Julianna Pena"
-  },
-  {
-    "Fighter": "Khalil Rountree Jr."
-  },
-  {
-    "Fighter": "Nik Lentz"
-  },
-  {
-    "Fighter": "Amir Albazi"
-  },
-  {
-    "Fighter": "Lerone Murphy"
-  },
-  {
-    "Fighter": "Mike Davis"
-  },
-  {
-    "Fighter": "Umar Nurmagomedov"
-  },
-  {
-    "Fighter": "Wu Yanan"
-  },
-  {
-    "Fighter": "David Zawada"
-  },
-  {
-    "Fighter": "Sarah Moras"
-  },
-  {
-    "Fighter": "Jacob Kilburn"
-  },
-  {
-    "Fighter": "Stephen Thompson"
-  },
-  {
-    "Fighter": "Tafon Nchukwi"
-  },
-  {
-    "Fighter": "Jimmy Flick"
-  },
-  {
-    "Fighter": "Cub Swanson"
-  },
-  {
-    "Fighter": "Ilia Topuria"
-  },
-  {
-    "Fighter": "Spike Carlyle"
-  },
-  {
-    "Fighter": "Ashlee Evans-Smith"
-  },
-  {
-    "Fighter": "Brandon Moreno"
-  },
-  {
-    "Fighter": "Alan Jouban"
-  },
-  {
-    "Fighter": "Kyle Daukaus"
-  },
-  {
-    "Fighter": "Louis Cosce"
-  },
-  {
-    "Fighter": "Geraldo de Freitas"
-  },
-  {
-    "Fighter": "Don'Tale Mayes"
-  },
-  {
-    "Fighter": "Max Griffin"
-  },
-  {
-    "Fighter": "Gustavo Lopez"
-  },
-  {
-    "Fighter": "Cole Williams"
-  },
-  {
-    "Fighter": "Khabib Nurmagomedov"
-  },
-  {
-    "Fighter": "Alexander Volkov"
-  },
-  {
-    "Fighter": "Jacob Malkoun"
-  },
-  {
-    "Fighter": "Magomed Ankalaev"
-  },
-  {
-    "Fighter": "Liana Jojua"
-  },
-  {
-    "Fighter": "Joel Alvarez"
-  },
-  {
-    "Fighter": "Brian Ortega"
-  },
-  {
-    "Fighter": "Jimmy Crute"
-  },
-  {
-    "Fighter": "Claudio Silva"
-  },
-  {
-    "Fighter": "Thomas Almeida"
-  },
-  {
-    "Fighter": "Mateusz Gamrot"
-  },
-  {
-    "Fighter": "Gadzhimurad Antigulov"
-  },
-  {
-    "Fighter": "Said Nurmagomedov"
-  },
-  {
-    "Fighter": "Markus Perez"
-  },
-  {
-    "Fighter": "Tom Breese"
-  },
-  {
-    "Fighter": "Ali AlQaisi"
-  },
-  {
-    "Fighter": "Holly Holm"
-  },
-  {
-    "Fighter": "Germaine de Randamie"
-  },
-  {
-    "Fighter": "Dequan Townsend"
-  },
-  {
-    "Fighter": "Jordan Williams"
-  },
-  {
-    "Fighter": "Casey Kenney"
-  },
-  {
-    "Fighter": "Luigi Vendramini"
-  },
-  {
-    "Fighter": "Kai Kara-France"
-  },
-  {
-    "Fighter": "Hakeem Dawodu"
-  },
-  {
-    "Fighter": "Diego Sanchez"
-  },
-  {
-    "Fighter": "Juan Espino"
-  },
-  {
-    "Fighter": "Khadis Ibragimov"
-  },
-  {
-    "Fighter": "Colby Covington"
-  },
-  {
-    "Fighter": "Mirsad Bektic"
-  },
-  {
-    "Fighter": "Jessica-Rose Clark"
-  },
-  {
-    "Fighter": "Darrick Minner"
-  },
-  {
-    "Fighter": "Journey Newson"
-  },
-  {
-    "Fighter": "Michelle Waterson"
-  },
-  {
-    "Fighter": "Ottman Azaitar"
-  },
-  {
-    "Fighter": "Ed Herman"
-  },
-  {
-    "Fighter": "Brok Weaver"
-  },
-  {
-    "Fighter": "Sabina Mazo"
-  },
-  {
-    "Fighter": "Andre Muniz"
-  },
-  {
-    "Fighter": "Viviane Araujo"
-  },
-  {
-    "Fighter": "Cole Smith"
-  },
-  {
-    "Fighter": "Robbie Lawler"
-  },
-  {
-    "Fighter": "Ji Yeon Kim"
-  },
-  {
-    "Fighter": "Ricardo Lamas"
-  },
-  {
-    "Fighter": "Mallory Martin"
-  },
-  {
-    "Fighter": "Carlton Minus"
-  },
-  {
-    "Fighter": "Timur Valiev"
-  },
-  {
-    "Fighter": "John Dodson"
-  },
-  {
-    "Fighter": "Felice Herrig"
-  },
-  {
-    "Fighter": "Herbert Burns"
-  },
-  {
-    "Fighter": "TJ Brown"
-  },
-  {
-    "Fighter": "Yana Kunitskaya"
-  },
-  {
-    "Fighter": "Irwin Rivera"
-  },
-  {
-    "Fighter": "Joanne Calderwood"
-  },
-  {
-    "Fighter": "Frankie Saenz"
-  },
-  {
-    "Fighter": "Fabricio Werdum"
-  },
-  {
-    "Fighter": "Nicolas Dalby"
-  },
-  {
-    "Fighter": "Ramazan Emeev"
-  },
-  {
-    "Fighter": "Marc Diakiese"
-  },
-  {
-    "Fighter": "Joe Duffy"
-  },
-  {
-    "Fighter": "Brett Johns"
-  },
-  {
-    "Fighter": "Malcolm Gordon"
-  },
-  {
-    "Fighter": "Davi Ramos"
-  },
-  {
-    "Fighter": "Calvin Kattar"
-  },
-  {
-    "Fighter": "Jimmie Rivera"
-  },
-  {
-    "Fighter": "John Phillips"
-  },
-  {
-    "Fighter": "Volkan Oezdemir"
-  },
-  {
-    "Fighter": "Elizeu Zaleski dos Santos"
-  },
-  {
-    "Fighter": "Raulian Paiva"
-  },
-  {
-    "Fighter": "Karol Rosa"
-  },
-  {
-    "Fighter": "Mara Romero Borella"
-  },
-  {
-    "Fighter": "Philipe Lins"
-  },
-  {
-    "Fighter": "Takashi Sato"
-  },
-  {
-    "Fighter": "Josh Emmett"
-  },
-  {
-    "Fighter": "Raquel Pennington"
-  },
-  {
-    "Fighter": "Frank Camacho"
-  },
-  {
-    "Fighter": "Andre Fili"
-  },
-  {
-    "Fighter": "Anthony Ivy"
-  },
-  {
-    "Fighter": "Raphael Assuncao"
-  },
-  {
-    "Fighter": "Ian Heinisch"
-  },
-  {
-    "Fighter": "Cody Stamann"
-  },
-  {
-    "Fighter": "Charles Byrd"
-  },
-  {
-    "Fighter": "Evan Dunham"
-  },
-  {
-    "Fighter": "Blagoy Ivanov"
-  },
-  {
-    "Fighter": "Jamahal Hill"
-  },
-  {
-    "Fighter": "Chris Gutierrez"
-  },
-  {
-    "Fighter": "Krzysztof Jotko"
-  },
-  {
-    "Fighter": "Rodrigo Nascimento"
-  },
-  {
-    "Fighter": "Chase Sherman"
-  },
-  {
-    "Fighter": "Ryan Spann"
-  },
-  {
-    "Fighter": "Henry Cejudo"
-  },
-  {
-    "Fighter": "Greg Hardy"
-  },
-  {
-    "Fighter": "Elizeu Dos Santos"
-  },
-  {
-    "Fighter": "Veronica Macedo"
-  },
-  {
-    "Fighter": "Weili Zhang"
-  },
-  {
-    "Fighter": "Mark Madsen"
-  },
-  {
-    "Fighter": "Gerald Meerschaert"
-  },
-  {
-    "Fighter": "Megan Anderson"
-  },
-  {
-    "Fighter": "Gabriel Silva"
-  },
-  {
-    "Fighter": "Aalon Cruz"
-  },
-  {
-    "Fighter": "Jim Crute"
-  },
-  {
-    "Fighter": "Ben Sosoli"
-  },
-  {
-    "Fighter": "Jalin Turner"
-  },
-  {
-    "Fighter": "Jake Matthews"
-  },
-  {
-    "Fighter": "Callan Potter"
-  },
-  {
-    "Fighter": "Kai Kara France"
-  },
-  {
-    "Fighter": "Priscila Cachoeira"
-  },
-  {
-    "Fighter": "Allen Crowder"
-  },
-  {
-    "Fighter": "Jon Jones"
-  },
-  {
-    "Fighter": "Urijah Faber"
-  },
-  {
-    "Fighter": "Yoshiro Maeda"
-  },
-  {
-    "Fighter": "Wanderlei Silva"
-  },
-  {
-    "Fighter": "Jorge Masvidal"
-  },
-  {
-    "Fighter": "Dion Staring"
-  },
-  {
-    "Fighter": "Nursulton Ruziboev"
-  },
-  {
-    "Fighter": "Alexander Sarnavskiy"
-  },
-  {
-    "Fighter": "Antonio Rodrigo Nogueira"
-  },
-  {
-    "Fighter": "Hideo Tokoro"
-  },
-  {
-    "Fighter": "Pat Healy"
-  },
-  {
-    "Fighter": "Trevor Prangley"
-  },
-  {
-    "Fighter": "Anderson Silva"
-  },
-  {
-    "Fighter": "Naoyuki Kotani"
-  },
-  {
-    "Fighter": "Renan Barao"
-  },
-  {
-    "Fighter": "Yushin Okami"
-  },
-  {
-    "Fighter": "Hector Lombard"
-  },
-  {
-    "Fighter": "Andrei Semenov"
-  },
-  {
-    "Fighter": "Keita Nakamura"
-  },
-  {
-    "Fighter": "Will Chope"
-  },
-  {
-    "Fighter": "Joe Stevenson"
-  },
-  {
-    "Fighter": "Chad Reiner"
-  },
-  {
-    "Fighter": "Glover Teixeira"
-  },
-  {
-    "Fighter": "Gleison Tibau"
-  },
-  {
-    "Fighter": "Caol Uno"
-  },
-  {
-    "Fighter": "Antony Rea"
-  },
-  {
-    "Fighter": "Gleristone Santos"
-  },
-  {
-    "Fighter": "Julio Cesar Neves Jr."
-  },
-  {
-    "Fighter": "Jason DeLucia"
-  },
-  {
-    "Fighter": "Anthony Ruiz"
-  },
-  {
-    "Fighter": "Ron Faircloth"
-  },
-  {
-    "Fighter": "Evan Tanner"
-  },
-  {
-    "Fighter": "Rafael Dos Anjos"
-  },
-  {
-    "Fighter": "Sean O'Malley"
-  },
-  {
-    "Fighter": "Alexandre Pantoja"
-  },
-  {
-    "Fighter": "Ilia Topuria"
-  },
-  {
-    "Fighter": "Islam Makhachev"
-  },
-  {
-    "Fighter": "Leon Edwards"
-  },
-  {
-    "Fighter": "Dricus Du Plessis"
-  },
-  {
-    "Fighter": "Alex Pereira"
-  },
-  {
-    "Fighter": "Alexa Grasso"
-  },
-  {
-    "Fighter": "Zhang Weili"
-  },
-  {
-    "Fighter": "Paulo Costa"
-  }
+ {
+   "Fighter": "Alejandro Perez",
+   "Nationality": "Mexico"
+ },
+ {
+   "Fighter": "Nick Diaz",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Arman Tsarukyan",
+   "Nationality": "Armenia"
+ },
+ {
+   "Fighter": "Erin Blanchfield",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Paddy Pimblett",
+   "Nationality": "England"
+ },
+ {
+   "Fighter": "Conor McGregor",
+   "Nationality": "Ireland "
+ },
+ {
+   "Fighter": "Ryan Hall",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Jennifer Maia",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Ciryl Gane",
+   "Nationality": "France"
+ },
+ {
+   "Fighter": "Chan Sung Jung",
+   "Nationality": "South Korea"
+ },
+ {
+   "Fighter": "Wellington Turman",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Matt Brown",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Khaos Williams",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Joaquim Silva",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Leon Edwards",
+   "Nationality": "England"
+ },
+ {
+   "Fighter": "Matt Frevola",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Yan Xiaonan",
+   "Nationality": "China"
+ },
+ {
+   "Fighter": "Justin Tafa",
+   "Nationality": "Australia"
+ },
+ {
+   "Fighter": "Donald Cerrone",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Zhang Weili",
+   "Nationality": "China"
+ },
+ {
+   "Fighter": "Arnold Allen",
+   "Nationality": "England"
+ },
+ {
+   "Fighter": "Jan Blachowicz",
+   "Nationality": "Poland"
+ },
+ {
+   "Fighter": "Dominick Cruz",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Kelvin Gastelum",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Brad Tavares",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Julianna Pena",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Umar Nurmagomedov",
+   "Nationality": "Russia"
+ },
+ {
+   "Fighter": "Stephen Thompson",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Cub Swanson",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Ilia Topuria",
+   "Nationality": "Georgia"
+ },
+ {
+   "Fighter": "Brandon Moreno",
+   "Nationality": "Mexico"
+ },
+ {
+   "Fighter": "Khabib Nurmagomedov",
+   "Nationality": "Russia"
+ },
+ {
+   "Fighter": "Alexander Volkov",
+   "Nationality": "Russia"
+ },
+ {
+   "Fighter": "Brian Ortega",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Jimmy Crute",
+   "Nationality": "Australia"
+ },
+ {
+   "Fighter": "Mateusz Gamrot",
+   "Nationality": "Poland"
+ },
+ {
+   "Fighter": "Said Nurmagomedov",
+   "Nationality": "Russia"
+ },
+ {
+   "Fighter": "Holly Holm",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Kai Kara-France",
+   "Nationality": "New Zealand"
+ },
+ {
+   "Fighter": "Colby Covington",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Robbie Lawler",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Calvin Kattar",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Josh Emmett",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Jamahal Hill",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Chase Sherman",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Ryan Spann",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Henry Cejudo",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Gerald Meerschaert",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Megan Anderson",
+   "Nationality": "Australia"
+ },
+ {
+   "Fighter": "Jalin Turner",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Jon Jones",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Urijah Faber",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Wanderlei Silva",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Jorge Masvidal",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Anderson Silva",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Glover Teixeira",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Rafael Dos Anjos",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Sean O'Malley",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Alexandre Pantoja",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Islam Makhachev",
+   "Nationality": "Russia"
+ },
+ {
+   "Fighter": "Dricus Du Plessis",
+   "Nationality": "South Africa"
+ },
+ {
+   "Fighter": "Alex Pereira",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Alexa Grasso",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Paulo Costa",
+   "Nationality": "Brazil"
+ },
+ {
+   "Fighter": "Petr Yan",
+   "Nationality": "Russia"
+ },
+ {
+   "Fighter": "Marlon Vera",
+   "Nationality": "Ecuador"
+ },
+ {
+   "Fighter": "Yair Rodriguez",
+   "Nationality": "Mexico"
+ },
+ {
+   "Fighter": "Justin Gaethje",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Dustin Poirier",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Michael Chandler",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Jack Della Maddalena",
+   "Nationality": "Australia"
+ },
+ {
+   "Fighter": "Song Yadong",
+   "Nationality": "China"
+ },
+ {
+   "Fighter": "Robert Whittaker",
+   "Nationality": "Australia"
+ },
+ {
+   "Fighter": "Marvin Vettori",
+   "Nationality": "Italy"
+ },
+ {
+   "Fighter": "Ji?� Proch�zka",
+   "Nationality": "Czech"
+ },
+ {
+   "Fighter": "Derrick Lewis",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Stipe Miocic",
+   "Nationality": "USA"
+ },
+ {
+   "Fighter": "Khamzat Chimaev",
+   "Nationality": "Russia"
+ },
+ {
+   "Fighter": "Jack Hermansson",
+   "Nationality": "Sweden"
+ }
 ]
