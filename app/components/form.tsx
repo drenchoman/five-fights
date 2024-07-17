@@ -6,6 +6,7 @@ type Fighter = {
   guess: string;
   setGuess: any;
   finished: boolean;
+  allFighters: any;
 };
 export default function Form({
   fighter,
@@ -14,19 +15,26 @@ export default function Form({
   guess,
   setGuess,
   finished,
+  allFighters,
 }: Fighter) {
   return (
     <div className={styles.formWrapper}>
       <form className={styles.form} onSubmit={handleSubmit}>
         <div>
           <input
+            list="fighterlist"
             className={styles.input}
             type="text"
             name="guess"
             value={guess}
             onChange={(event) => setGuess(event.target.value)}
             placeholder="eg: Alex Pereira"
-          ></input>
+          />
+          <datalist id="fighterlist">
+            {allFighters.map((f: string, i: number) => (
+              <option key={i} value={f} />
+            ))}
+          </datalist>
         </div>
         <div>
           <button

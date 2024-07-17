@@ -1,318 +1,322 @@
 [
- {
-   "Fighter": "Alejandro Perez",
-   "Nationality": "Mexico"
- },
- {
-   "Fighter": "Nick Diaz",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Arman Tsarukyan",
-   "Nationality": "Armenia"
- },
- {
-   "Fighter": "Erin Blanchfield",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Paddy Pimblett",
-   "Nationality": "England"
- },
- {
-   "Fighter": "Conor McGregor",
-   "Nationality": "Ireland "
- },
- {
-   "Fighter": "Ryan Hall",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Jennifer Maia",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Ciryl Gane",
-   "Nationality": "France"
- },
- {
-   "Fighter": "Chan Sung Jung",
-   "Nationality": "South Korea"
- },
- {
-   "Fighter": "Wellington Turman",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Matt Brown",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Khaos Williams",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Joaquim Silva",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Leon Edwards",
-   "Nationality": "England"
- },
- {
-   "Fighter": "Matt Frevola",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Yan Xiaonan",
-   "Nationality": "China"
- },
- {
-   "Fighter": "Justin Tafa",
-   "Nationality": "Australia"
- },
- {
-   "Fighter": "Donald Cerrone",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Zhang Weili",
-   "Nationality": "China"
- },
- {
-   "Fighter": "Arnold Allen",
-   "Nationality": "England"
- },
- {
-   "Fighter": "Jan Blachowicz",
-   "Nationality": "Poland"
- },
- {
-   "Fighter": "Dominick Cruz",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Kelvin Gastelum",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Brad Tavares",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Julianna Pena",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Umar Nurmagomedov",
-   "Nationality": "Russia"
- },
- {
-   "Fighter": "Stephen Thompson",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Cub Swanson",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Ilia Topuria",
-   "Nationality": "Georgia"
- },
- {
-   "Fighter": "Brandon Moreno",
-   "Nationality": "Mexico"
- },
- {
-   "Fighter": "Khabib Nurmagomedov",
-   "Nationality": "Russia"
- },
- {
-   "Fighter": "Alexander Volkov",
-   "Nationality": "Russia"
- },
- {
-   "Fighter": "Brian Ortega",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Jimmy Crute",
-   "Nationality": "Australia"
- },
- {
-   "Fighter": "Mateusz Gamrot",
-   "Nationality": "Poland"
- },
- {
-   "Fighter": "Said Nurmagomedov",
-   "Nationality": "Russia"
- },
- {
-   "Fighter": "Holly Holm",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Kai Kara-France",
-   "Nationality": "New Zealand"
- },
- {
-   "Fighter": "Colby Covington",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Robbie Lawler",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Calvin Kattar",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Josh Emmett",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Jamahal Hill",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Chase Sherman",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Ryan Spann",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Henry Cejudo",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Gerald Meerschaert",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Megan Anderson",
-   "Nationality": "Australia"
- },
- {
-   "Fighter": "Jalin Turner",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Jon Jones",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Urijah Faber",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Wanderlei Silva",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Jorge Masvidal",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Anderson Silva",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Glover Teixeira",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Rafael Dos Anjos",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Sean O'Malley",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Alexandre Pantoja",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Islam Makhachev",
-   "Nationality": "Russia"
- },
- {
-   "Fighter": "Dricus Du Plessis",
-   "Nationality": "South Africa"
- },
- {
-   "Fighter": "Alex Pereira",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Alexa Grasso",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Paulo Costa",
-   "Nationality": "Brazil"
- },
- {
-   "Fighter": "Petr Yan",
-   "Nationality": "Russia"
- },
- {
-   "Fighter": "Marlon Vera",
-   "Nationality": "Ecuador"
- },
- {
-   "Fighter": "Yair Rodriguez",
-   "Nationality": "Mexico"
- },
- {
-   "Fighter": "Justin Gaethje",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Dustin Poirier",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Michael Chandler",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Jack Della Maddalena",
-   "Nationality": "Australia"
- },
- {
-   "Fighter": "Song Yadong",
-   "Nationality": "China"
- },
- {
-   "Fighter": "Robert Whittaker",
-   "Nationality": "Australia"
- },
- {
-   "Fighter": "Marvin Vettori",
-   "Nationality": "Italy"
- },
- {
-   "Fighter": "Ji?� Proch�zka",
-   "Nationality": "Czech"
- },
- {
-   "Fighter": "Derrick Lewis",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Stipe Miocic",
-   "Nationality": "USA"
- },
- {
-   "Fighter": "Khamzat Chimaev",
-   "Nationality": "Russia"
- },
- {
-   "Fighter": "Jack Hermansson",
-   "Nationality": "Sweden"
- }
+  {
+    "Fighter": "Alejandro Perez",
+    "Nationality": "Mexico"
+  },
+  {
+    "Fighter": "Gilbert Burns",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Nick Diaz",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Arman Tsarukyan",
+    "Nationality": "Armenia"
+  },
+  {
+    "Fighter": "Erin Blanchfield",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Paddy Pimblett",
+    "Nationality": "England"
+  },
+  {
+    "Fighter": "Conor McGregor",
+    "Nationality": "Ireland "
+  },
+  {
+    "Fighter": "Ryan Hall",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Jennifer Maia",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Ciryl Gane",
+    "Nationality": "France"
+  },
+  {
+    "Fighter": "Chan Sung Jung",
+    "Nationality": "South Korea"
+  },
+  {
+    "Fighter": "Wellington Turman",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Matt Brown",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Khaos Williams",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Joaquim Silva",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Leon Edwards",
+    "Nationality": "England"
+  },
+  {
+    "Fighter": "Matt Frevola",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Yan Xiaonan",
+    "Nationality": "China"
+  },
+  {
+    "Fighter": "Justin Tafa",
+    "Nationality": "Australia"
+  },
+  {
+    "Fighter": "Donald Cerrone",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Zhang Weili",
+    "Nationality": "China"
+  },
+  {
+    "Fighter": "Arnold Allen",
+    "Nationality": "England"
+  },
+  {
+    "Fighter": "Jan Blachowicz",
+    "Nationality": "Poland"
+  },
+  {
+    "Fighter": "Dominick Cruz",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Kelvin Gastelum",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Brad Tavares",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Julianna Pena",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Umar Nurmagomedov",
+    "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Stephen Thompson",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Cub Swanson",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Ilia Topuria",
+    "Nationality": "Georgia"
+  },
+  {
+    "Fighter": "Brandon Moreno",
+    "Nationality": "Mexico"
+  },
+  {
+    "Fighter": "Khabib Nurmagomedov",
+    "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Alexander Volkov",
+    "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Brian Ortega",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Jimmy Crute",
+    "Nationality": "Australia"
+  },
+  {
+    "Fighter": "Mateusz Gamrot",
+    "Nationality": "Poland"
+  },
+  {
+    "Fighter": "Said Nurmagomedov",
+    "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Holly Holm",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Kai Kara-France",
+    "Nationality": "New Zealand"
+  },
+  {
+    "Fighter": "Colby Covington",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Robbie Lawler",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Calvin Kattar",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Josh Emmett",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Jamahal Hill",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Chase Sherman",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Ryan Spann",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Henry Cejudo",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Gerald Meerschaert",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Megan Anderson",
+    "Nationality": "Australia"
+  },
+  {
+    "Fighter": "Jalin Turner",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Jon Jones",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Urijah Faber",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Wanderlei Silva",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Jorge Masvidal",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Anderson Silva",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Glover Teixeira",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Rafael Dos Anjos",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Sean O'Malley",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Alexandre Pantoja",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Islam Makhachev",
+    "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Dricus Du Plessis",
+    "Nationality": "South Africa"
+  },
+  {
+    "Fighter": "Alex Pereira",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Alexa Grasso",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Paulo Costa",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Petr Yan",
+    "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Marlon Vera",
+    "Nationality": "Ecuador"
+  },
+  {
+    "Fighter": "Yair Rodriguez",
+    "Nationality": "Mexico"
+  },
+  {
+    "Fighter": "Justin Gaethje",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Dustin Poirier",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Michael Chandler",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Jack Della Maddalena",
+    "Nationality": "Australia"
+  },
+  {
+    "Fighter": "Song Yadong",
+    "Nationality": "China"
+  },
+  {
+    "Fighter": "Robert Whittaker",
+    "Nationality": "Australia"
+  },
+  {
+    "Fighter": "Marvin Vettori",
+    "Nationality": "Italy"
+  },
+  {
+    "Fighter": "Jiri Prochazka",
+    "Nationality": "Czech"
+  },
+  {
+    "Fighter": "Derrick Lewis",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Stipe Miocic",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Khamzat Chimaev",
+    "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Jack Hermansson",
+    "Nationality": "Sweden"
+  }
 ]

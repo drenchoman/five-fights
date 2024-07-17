@@ -14,7 +14,7 @@
 }
 
 .hidden {
-  filter: blur(0.25rem);
+  filter: blur(0.5rem);
 }
 
 .fighterWrapper {
@@ -39,23 +39,6 @@
 .main {
   display: flex;
   flex-direction: column;
-}
-
-.hiddenAnswer {
-  display: none;
-}
-
-.answer {
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0;
-}
-
-.answer > h2 {
-  color: #fff;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
