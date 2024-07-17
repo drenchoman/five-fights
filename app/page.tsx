@@ -1,7 +1,7 @@
 import Fights from './components/fights';
 import { randomIntFromInterval } from './helpers/randomIntFromInterval';
 import { getFighterFromJson } from './helpers/getFighterFromJson';
-
+import { getAllFightersFromJson } from './helpers/getAllFightersFromJson';
 async function getFighterData() {
   const fighter = await getFighterFromJson();
   const res = await fetch(
@@ -51,12 +51,14 @@ function filterFights(data: any, fighter: string) {
 
 export default async function Home() {
   const { fightInfo, fighter } = await getFighterData();
+  const allFighters = await getAllFightersFromJson();
 
   return (
     <Fights
       fightInfo={fightInfo}
       fighterName={fighter.fighter}
       fighterNation={fighter.nation}
+      allFighters={allFighters}
     />
   );
 }
