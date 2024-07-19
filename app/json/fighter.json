@@ -72,6 +72,14 @@
     "Nationality": "China"
   },
   {
+    "Fighter": "Deiveson Figueiredo",
+    "Nationality": "Brazil"
+  },
+  {
+    "Fighter": "Kamaru Usman",
+    "Nationality": "Nigeria"
+  },
+  {
     "Fighter": "Justin Tafa",
     "Nationality": "Australia"
   },
@@ -86,6 +94,10 @@
   {
     "Fighter": "Arnold Allen",
     "Nationality": "England"
+  },
+  {
+    "Fighter": "Aljamain Sterling",
+    "Nationality": "USA"
   },
   {
     "Fighter": "Jan Blachowicz",
@@ -110,6 +122,10 @@
   {
     "Fighter": "Umar Nurmagomedov",
     "Nationality": "Russia"
+  },
+  {
+    "Fighter": "Curtis Blaydes",
+    "Nationality": "USA"
   },
   {
     "Fighter": "Stephen Thompson",
@@ -176,8 +192,24 @@
     "Nationality": "USA"
   },
   {
+    "Fighter": "Shavkat Rakhmonov",
+    "Nationality": "Kazakhstan"
+  },
+  {
     "Fighter": "Jamahal Hill",
     "Nationality": "USA"
+  },
+  {
+    "Fighter": "Rose Namajunas",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Valentina Shevchenko",
+    "Nationality": "Kyrgyzstan"
+  },
+  {
+    "Fighter": "Sergei Pavlovich",
+    "Nationality": "Russia"
   },
   {
     "Fighter": "Chase Sherman",
@@ -224,6 +256,14 @@
     "Nationality": "Brazil"
   },
   {
+    "Fighter": "Dan Hooker",
+    "Nationality": "New Zealand"
+  },
+  {
+    "Fighter": "Rafael Fiziev",
+    "Nationality": "Azerbaijan"
+  },
+  {
     "Fighter": "Glover Teixeira",
     "Nationality": "Brazil"
   },
@@ -256,6 +296,14 @@
     "Nationality": "Brazil"
   },
   {
+    "Fighter": "Jared Cannonier",
+    "Nationality": "USA"
+  },
+  {
+    "Fighter": "Dominick Reyes",
+    "Nationality": "USA"
+  },
+  {
     "Fighter": "Paulo Costa",
     "Nationality": "Brazil"
   },
@@ -282,6 +330,10 @@
   {
     "Fighter": "Michael Chandler",
     "Nationality": "USA"
+  },
+  {
+    "Fighter": "Tai Tuivasa",
+    "Nationality": "Australia"
   },
   {
     "Fighter": "Jack Della Maddalena",
