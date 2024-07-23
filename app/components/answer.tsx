@@ -1,4 +1,8 @@
+'use client';
 import styles from '../components/answer.module.css';
+import Confetteehee from './confetti';
+import useWindowDimensions from '../helpers/useWindowDimensions';
+
 type Answer = {
   fighterName: string;
   fighterNation: string;
@@ -10,6 +14,8 @@ export default function Answer({
   fighterNation,
   finished,
 }: Answer) {
+  const size = useWindowDimensions();
+
   return (
     <div
       className={
@@ -19,6 +25,11 @@ export default function Answer({
       }
     >
       <h2>{finished ? fighterName : ''}</h2>
+      <Confetteehee
+        win={finished}
+        width={size.width}
+        height={size.height}
+      />
     </div>
   );
 }
