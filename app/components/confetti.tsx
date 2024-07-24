@@ -1,8 +1,8 @@
 import React from 'react';
 import Confetti from 'react-confetti';
 type Confetteehee = {
-  width: number;
-  height: number;
+  width: number | undefined;
+  height: number | undefined;
   win: boolean;
 };
 
