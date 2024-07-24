@@ -7,11 +7,13 @@ type Answer = {
   fighterName: string;
   fighterNation: string;
   finished: boolean;
+  winner: boolean;
 };
 
 export default function Answer({
   fighterName,
   fighterNation,
+  winner,
   finished,
 }: Answer) {
   const size = useWindowDimensions();
@@ -25,8 +27,20 @@ export default function Answer({
       }
     >
       <h2>{finished ? fighterName : ''}</h2>
+      {finished ? (
+        <p>
+          {winner ? (
+            <span>You got it!</span>
+          ) : (
+            'Better luck next time.'
+          )}
+        </p>
+      ) : (
+        ''
+      )}
+
       <Confetteehee
-        win={finished}
+        win={winner}
         width={size.width}
         height={size.height}
       />
