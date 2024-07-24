@@ -4,11 +4,13 @@
   margin: 1rem 0.5rem;
   justify-content: center;
   width: 100%;
-  max-width: 362px;
+  max-width: 350px;
 }
 
 .faqContainer {
   display: flex;
   flex-direction: column;
   margin: 0.5rem 0;
+  width: 350px;
+  max-width: 350px;
 }

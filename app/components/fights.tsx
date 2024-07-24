@@ -21,6 +21,7 @@ export default function Fights({
   const [attempts, setAttempts] = useState(5);
   const [guess, setGuess] = useState('');
   const [finished, setFinished] = useState(false);
+  const [winner, setWinner] = useState(false);
 
   // Get answer variations for guess
   let acceptableAnswers = getAnswerVariations(fighterName);
@@ -30,7 +31,10 @@ export default function Fights({
     setAttempts(() => attempts - 1);
     let result = acceptableAnswers.includes(guess.toLowerCase());
     setGuess('');
-    if (result || attempts == 1) {
+    if (result) {
+      setWinner(true);
+      setFinished(true);
+    } else if (attempts <= 1) {
       setFinished(true);
     }
   };
@@ -50,9 +54,10 @@ export default function Fights({
         fighterName={fighterName}
         fighterNation={fighterNation}
         finished={finished}
+        winner={winner}
       />
       <div className={styles.container}>
-        <span>
+        <p>
           Nationality:{' '}
           <span
             className={
@@ -60,56 +65,59 @@ export default function Fights({
             }
           >
             {fighterNation}
-          </span>{' '}
-        </span>
+          </span>
+        </p>
       </div>
-
-      {fightInfo.map((f: any, i: number) => (
-        <div className={styles.container} key={i}>
-          <span>{i + 1}.</span>
-          <div className={styles.wrapper}>
-            <div className={styles.fighterWrapper}>
-              <span
-                className={
-                  attempts > 4 ? `${styles.hidden}` : `${styles.show}`
-                }
-              >
-                {f.winner == f.fighter ? 'WIN' : 'LOSS'}
-              </span>
-              <span>vs</span>
-              <span>
-                {f.fighterTwo == f.fighter
-                  ? f.fighterOne
-                  : f.fighterTwo}
-              </span>
-            </div>
-            <div className={styles.fightInfoWrapper}>
-              <div>
+      <div className={styles.fightsWrapper}>
+        {fightInfo.map((f: any, i: number) => (
+          <div className={styles.container} key={i}>
+            <span>{i + 1}.</span>
+            <div className={styles.wrapper}>
+              <div className={styles.fighterWrapper}>
                 <span
                   className={
-                    attempts > 3
+                    attempts > 4
                       ? `${styles.hidden}`
                       : `${styles.show}`
                   }
                 >
-                  {f.date}
+                  {f.winner == f.fighter ? 'WIN' : 'LOSS'}
+                </span>
+                <span>vs</span>
+                <span>
+                  {f.fighterTwo == f.fighter
+                    ? f.fighterOne
+                    : f.fighterTwo}
                 </span>
               </div>
-              <div>
-                <span
-                  className={
-                    attempts > 2
-                      ? `${styles.hidden}`
-                      : `${styles.show}`
-                  }
-                >
-                  {f.weightClass}
-                </span>
+              <div className={styles.fightInfoWrapper}>
+                <div>
+                  <span
+                    className={
+                      attempts > 3
+                        ? `${styles.hidden}`
+                        : `${styles.show}`
+                    }
+                  >
+                    {f.date}
+                  </span>
+                </div>
+                <div>
+                  <span
+                    className={
+                      attempts > 2
+                        ? `${styles.hidden}`
+                        : `${styles.show}`
+                    }
+                  >
+                    {f.weightClass}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </main>
   );
 }

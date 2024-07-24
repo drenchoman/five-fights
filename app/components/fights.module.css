@@ -4,6 +4,13 @@
   margin: 0.5rem;
   justify-content: center;
   width: 100%;
+  align-items: center;
+  max-width: 350px;
+}
+
+.container > span {
+  display: flex;
+  align-self: flex-start;
 }
 
 .wrapper {
@@ -36,9 +43,16 @@
   gap: 1rem 0;
 }
 
+.fightsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 @-webkit-keyframes glow {
