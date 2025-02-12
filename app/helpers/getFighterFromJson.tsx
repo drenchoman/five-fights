@@ -7,6 +7,8 @@ export async function getFighterFromJson() {
   const jsonData = await fsPromises.readFile(filePath, 'utf-8');
   const objectData = JSON.parse(jsonData);
   const randomNumber = randomIntFromInterval(0, objectData.length);
-  let randomFighter = objectData[randomNumber]['Fighter'];
+  let fighter = objectData[randomNumber]['Fighter'];
+  let nation = objectData[randomNumber]['Nationality'];
+  let randomFighter = { fighter, nation };
   return randomFighter;
 }

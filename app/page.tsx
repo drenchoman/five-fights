@@ -1,13 +1,13 @@
 import Fights from './components/fights';
 import { randomIntFromInterval } from './helpers/randomIntFromInterval';
 import { getFighterFromJson } from './helpers/getFighterFromJson';
-
+import { getAllFightersFromJson } from './helpers/getAllFightersFromJson';
 async function getFighterData() {
   const fighter = await getFighterFromJson();
   const res = await fetch(
-    `https://${process.env.RAPID_API_HOST}/Events/FindEventsByFighterName/${fighter}?limit=30`,
+    `https://${process.env.RAPID_API_HOST}/Events/FindEventsByFighterName/${fighter.fighter}?limit=30`,
     {
-      next: { revalidate: 86400 },
+      next: { revalidate: 43200 },
       headers: {
         'Content-Type': 'application/json',
         'x-rapidapi-key': process.env.RAPID_API_KEY
@@ -25,7 +25,7 @@ async function getFighterData() {
   }
 
   const data = await res.json();
-  const fightInfo = filterFights(data, fighter);
+  const fightInfo = filterFights(data, fighter.fighter);
 
   return { fightInfo, fighter };
 }
@@ -51,6 +51,14 @@ function filterFights(data: any, fighter: string) {
 
 export default async function Home() {
   const { fightInfo, fighter } = await getFighterData();
+  const allFighters = await getAllFightersFromJson();
 
-  return <Fights fightInfo={fightInfo} fighter={fighter} />;
+  return (
+    <Fights
+      fightInfo={fightInfo}
+      fighterName={fighter.fighter}
+      fighterNation={fighter.nation}
+      allFighters={allFighters}
+    />
+  );
 }
