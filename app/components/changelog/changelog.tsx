@@ -26,7 +26,7 @@ export default function Changes() {
           <div key={i} className={styles.updateContainer}>
             <h3>{update.date}</h3>
             <ul>
-              {update.updates.map((u, i) => (
+              {update.updates.map((u: string, i: number) => (
                 <li key={i}>{u}</li>
               ))}
             </ul>
