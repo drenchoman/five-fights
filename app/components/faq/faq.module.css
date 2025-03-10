@@ -14,3 +14,7 @@
   width: 350px;
   max-width: 350px;
 }
+
+.faqContainer:hover {
+  cursor: pointer;
+}

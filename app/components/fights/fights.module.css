@@ -55,6 +55,43 @@
   align-items: center;
 }
 
+.blink {
+  animation: blink 0.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+@keyframes blink {
+  0% {
+    background-color: initial;
+  }
+
+  50% {
+    background-color: red;
+    opacity: 20%;
+  }
+  100% {
+    background-color: initial;
+  }
+}
+
+@keyframes blinkoff {
+  0% {
+    background-color: initial;
+  }
+
+  50% {
+    background-color: red;
+    opacity: 20%;
+  }
+  100% {
+    background-color: initial;
+  }
+}
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
@@ -67,7 +104,14 @@
       0 0 80px #ff4da6;
   }
 }
-/* .flightInfoWrapper > div {
-  display: flex;
-  flex-direction: column;
-} */
+
+@media (prefers-reduced-motion) {
+  .blink {
+    animation: blinkoff 0.8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+}

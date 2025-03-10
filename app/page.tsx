@@ -1,74 +1,64 @@
-import Fights from './components/fights';
+import Fights from './components/fights/fights';
 import { randomIntFromInterval } from './helpers/randomIntFromInterval';
 import { getFighterFromJson } from './helpers/getFighterFromJson';
 import { getAllFightersFromJson } from './helpers/getAllFightersFromJson';
-// async function getFighterData() {
-//   const fighter = await getFighterFromJson();
-//   const res = await fetch(
-//     `https://${process.env.RAPID_API_HOST}/Events/FindEventsByFighterName/${fighter.fighter}?limit=30`,
-//     {
-//       next: { revalidate: 43200 },
-//       headers: {
-//         'Content-Type': 'application/json',
-//         'x-rapidapi-key': process.env.RAPID_API_KEY
-//           ? process.env.RAPID_API_KEY
-//           : '',
-//         'x-rapidapi-host': process.env.RAPID_API_HOST
-//           ? process.env.RAPID_API_HOST
-//           : '',
-//       },
-//     }
-//   );
+async function getFighterData() {
+  const fighter = await getFighterFromJson();
+  const res = await fetch(
+    `https://${process.env.RAPID_API_HOST}/fighters/fight_history?first_name=${fighter.firstName}&last_name=${fighter.lastName}`,
+    {
+      next: { revalidate: 43200 },
+      headers: {
+        'Content-Type': 'application/json',
+        'x-rapidapi-key': process.env.RAPID_API_KEY
+          ? process.env.RAPID_API_KEY
+          : '',
+        'x-rapidapi-host': process.env.RAPID_API_HOST
+          ? process.env.RAPID_API_HOST
+          : '',
+      },
+    }
+  );
 
-//   if (!res.ok) {
-//     console.log(res);
-//     throw new Error('Failed to fetch data');
-//   }
+  if (!res.ok) {
+    console.log(res);
+    throw new Error('Failed to fetch data. Try again later.');
+  }
 
-//   const data = await res.json();
-//   const fightInfo = filterFights(data, fighter.fighter);
+  const data = await res.json();
+  const fights = filterFights(data);
 
-//   return { fightInfo, fighter };
-// }
+  return { fights, fighter };
+}
 
-// function filterFights(data: any, fighter: string) {
-//   let max = data.length - 5;
-//   let randomNumber = randomIntFromInterval(0, max);
+function filterFights(data: any) {
+  let max = data.length - 5;
+  let randomNumber = randomIntFromInterval(0, max);
 
-//   let fivefights = data
-//     .slice(randomNumber, randomNumber + 5)
-//     .map((f: any) => ({
-//       fighter: fighter,
-//       date: f.Date,
-//       fighterOne: f['Fighter 1'],
-//       fighterTwo: f['Fighter 2'],
-//       winner: f.Winner,
-//       weightClass: f['Weight_Class'],
-//     }))
-//     .reverse();
+  let fivefights = data
+    .slice(randomNumber, randomNumber + 5)
+    .map((f: any) => ({
+      date: f.date,
+      opponent: f.opponent,
+      result: f.result,
+      method: f.method,
+      event: f.event,
+    }))
+    .reverse();
 
-//   return fivefights;
-// }
+  return fivefights;
+}
 
 export default async function Home() {
-  // const { fightInfo, fighter } = await getFighterData();
-  // const allFighters = await getAllFightersFromJson();
+  const { fights, fighter } = await getFighterData();
+  const allFighters = await getAllFightersFromJson();
 
   return (
-    <div>
-      <h2>Update</h2>
-      <p>
-        We are currently experiencing some issues with our API
-        provider. <br />
-        We will be back as soon as possible!
-      </p>
-    </div>
-
-    // <Fights
-    //   fightInfo={fightInfo}
-    //   fighterName={fighter.fighter}
-    //   fighterNation={fighter.nation}
-    //   allFighters={allFighters}
-    // />
+    <Fights
+      fightInfo={fights}
+      fighterName={fighter.fullName}
+      fighterNation={fighter.nation}
+      allFighters={allFighters}
+    />
   );
 }

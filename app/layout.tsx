@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import Header from './components/header';
-import Faq from './components/faq';
-import Footer from './components/footer';
+import Header from './components/header/header';
+import Faq from './components/faq/faq';
+import Footer from './components/footer/footer';
 import styles from './page.module.css';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Five Fights | Five Guesses, Five Fights',
   description:
-    'Can you guess the UFC fighter from five of their fights?',
+    'Can you guess the UFC fighter from five of their fights? A new fighter everyday.',
   keywords: 'ufc,five fights, game, mma',
   openGraph: {
     type: 'website',

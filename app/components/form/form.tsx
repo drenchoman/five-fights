@@ -1,4 +1,4 @@
-import styles from '../components/form.module.css';
+import styles from './form.module.css';
 type Fighter = {
   fighter: string;
   attempts: number;

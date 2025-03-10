@@ -1,0 +1,28 @@
+.text {
+  margin: 0.5rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.5rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+}
+
+.small {
+  font-size: 0.7rem;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.links > li {
+  list-style: none;
+}
