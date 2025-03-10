@@ -1,4 +1,4 @@
-import styles from '../components/faq.module.css';
+import styles from './faq.module.css';
 interface Faqs {
   question: string;
   answer: string;
@@ -14,8 +14,9 @@ const faqs: Faqs[] = [
     answer: 'A new fighter appears every 12 hours.',
   },
   {
-    question: 'Why does X not work?',
-    answer: 'Because Y not.',
+    question: 'Something is wrong / How can I share feedback?',
+    answer:
+      "Click the 'Share your feedback' link below and let me know!",
   },
 ];
 

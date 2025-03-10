@@ -1,9 +1,10 @@
 'use client';
-import styles from '../components/fights.module.css';
-import Form from './form';
+import styles from './fights.module.css';
+import Form from '../form/form';
 import { useState } from 'react';
-import { getAnswerVariations } from '../helpers/getAnswerVariations';
-import Answer from './answer';
+import { getAnswerVariations } from '../../helpers/getAnswerVariations';
+import Answer from '../answer/answer';
+import { useEffect } from 'react';
 
 type Fight = {
   fightInfo: any;
@@ -23,6 +24,8 @@ export default function Fights({
   const [finished, setFinished] = useState(false);
   const [winner, setWinner] = useState(false);
 
+  const [isActive, setIsActive] = useState(false);
+
   // Get answer variations for guess
   let acceptableAnswers = getAnswerVariations(fighterName);
 
@@ -35,12 +38,24 @@ export default function Fights({
       setWinner(true);
       setFinished(true);
     } else if (attempts <= 1) {
+      setIsActive(true);
       setFinished(true);
+    } else {
+      setIsActive(true);
     }
   };
 
+  // Blink effect wehen losing a life
+  useEffect(() => {
+    if (isActive) {
+      const timer = setTimeout(() => setIsActive(false), 800);
+      return () => clearTimeout(timer);
+    }
+  }, [isActive]);
+
   return (
     <main className={styles.main}>
+      <div className={`${isActive ? styles.blink : ''}`}></div>
       <Form
         fighter={fighterName}
         attempts={attempts}
@@ -81,14 +96,10 @@ export default function Fights({
                       : `${styles.show}`
                   }
                 >
-                  {f.winner == f.fighter ? 'WIN' : 'LOSS'}
+                  {f.result.toUpperCase()}
                 </span>
                 <span>vs</span>
-                <span>
-                  {f.fighterTwo == f.fighter
-                    ? f.fighterOne
-                    : f.fighterTwo}
-                </span>
+                <span>{f.opponent}</span>
               </div>
               <div className={styles.fightInfoWrapper}>
                 <div>
@@ -110,7 +121,7 @@ export default function Fights({
                         : `${styles.show}`
                     }
                   >
-                    {f.weightClass}
+                    {f.method}
                   </span>
                 </div>
               </div>

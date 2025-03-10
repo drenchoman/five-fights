@@ -19,6 +19,10 @@
   margin: 0.5rem;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .attempts {
   font-weight: 200;
   font-size: 0.8rem;

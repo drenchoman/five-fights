@@ -1,0 +1,28 @@
+.changelog {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0.5rem; */
+  /* justify-content: center; */
+  width: 100%;
+  /* align-items: center; */
+  max-width: 350px;
+}
+.changelog > h2 {
+  margin: 0.5rem 0;
+}
+
+.updateContainer {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0.5rem 0; */
+  width: 350px;
+  max-width: 350px;
+}
+
+.updateContainer > h3 {
+  margin: 0.5rem 0;
+}
+
+.updateContainer > ul > li {
+  list-style: none;
+}

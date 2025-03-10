@@ -1,7 +1,7 @@
 'use client';
-import styles from '../components/answer.module.css';
-import Confetteehee from './confetti';
-import useWindowDimensions from '../helpers/useWindowDimensions';
+import styles from './answer.module.css';
+import Confetteehee from '../confetti';
+import useWindowDimensions from '../../helpers/useWindowDimensions';
 
 type Answer = {
   fighterName: string;
