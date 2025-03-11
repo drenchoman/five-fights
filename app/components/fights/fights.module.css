@@ -56,7 +56,7 @@
 }
 
 .blink {
-  animation: blink 0.8s;
+  animation: blink 0.8s ease-in-out;
   position: absolute;
   top: 0;
   left: 0;
@@ -66,15 +66,13 @@
 
 @keyframes blink {
   0% {
-    background-color: initial;
+    background-color: red;
+    opacity: 10%;
   }
 
-  50% {
-    background-color: red;
-    opacity: 20%;
-  }
   100% {
-    background-color: initial;
+    background-color: red;
+    opacity: 0%;
   }
 }
 
@@ -84,7 +82,7 @@
   }
 
   50% {
-    background-color: red;
+    background-color: intial;
     opacity: 20%;
   }
   100% {
@@ -92,16 +90,15 @@
   }
 }
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
-      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073,
-      0 0 70px #e60073;
+@-webkit-keyframes blink {
+  0% {
+    background-color: red;
+    opacity: 10%;
   }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
-      0 0 80px #ff4da6;
+
+  100% {
+    background-color: red;
+    opacity: 0%;
   }
 }
 
