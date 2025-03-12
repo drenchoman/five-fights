@@ -52,16 +52,16 @@ function filterFights(data: any) {
 
 export default async function Home() {
   // Restore for full function
-  // const { fights, fighter } = await getFighterData();
+  const { fights, fighter } = await getFighterData();
   const allFighters = await getAllFightersFromJson();
 
-  const fights = filterFights(sampleRespone);
-  const fighter = {
-    firstName: 'Conor',
-    lastName: 'Mcgregor',
-    nation: 'Ireland',
-    fullName: 'Conor Mcgregor',
-  };
+  // const fights = filterFights(sampleRespone);
+  // const fighter = {
+  //   firstName: 'Conor',
+  //   lastName: 'Mcgregor',
+  //   nation: 'Ireland',
+  //   fullName: 'Conor Mcgregor',
+  // };
 
   return (
     <Fights
