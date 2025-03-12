@@ -7,6 +7,7 @@ type Fighter = {
   setGuess: any;
   finished: boolean;
   allFighters: any;
+  streakValue: number;
 };
 export default function Form({
   fighter,
@@ -16,6 +17,7 @@ export default function Form({
   setGuess,
   finished,
   allFighters,
+  streakValue,
 }: Fighter) {
   return (
     <div className={styles.formWrapper}>
@@ -46,9 +48,15 @@ export default function Form({
           </button>
         </div>
       </form>
-      <span className={styles.attempts}>
-        Attempts Remaining: {attempts}
-      </span>
+      <div className={styles.tallyContainer}>
+        <span className={styles.attempts}>
+          Streak: {streakValue}{' '}
+          <span>{streakValue >= 10 ? '🔥' : ''}</span>
+        </span>
+        <span className={styles.attempts}>
+          Attempts Remaining: {attempts}
+        </span>
+      </div>
     </div>
   );
 }

@@ -48,3 +48,14 @@
       0 0 8px #4db8ff;
   }
 }
+
+/* @media (prefers-reduced-motion) {
+  .blink {
+    animation: blinkoff 0.8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+} */

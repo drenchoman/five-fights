@@ -28,3 +28,9 @@
   font-size: 0.8rem;
   margin: 0.5rem;
 }
+
+.tallyContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
