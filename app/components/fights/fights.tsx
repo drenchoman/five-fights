@@ -5,6 +5,8 @@ import { useState } from 'react';
 import { getAnswerVariations } from '../../helpers/getAnswerVariations';
 import Answer from '../answer/answer';
 import { useEffect } from 'react';
+import { useLocalStorage } from 'usehooks-ts';
+import { useReadLocalStorage } from 'usehooks-ts';
 
 type Fight = {
   fightInfo: any;
@@ -25,6 +27,7 @@ export default function Fights({
   const [winner, setWinner] = useState(false);
 
   const [isActive, setIsActive] = useState(false);
+  const [streakValue, setStreakValue] = useState(0);
 
   // Get answer variations for guess
   let acceptableAnswers = getAnswerVariations(fighterName);
@@ -35,9 +38,11 @@ export default function Fights({
     let result = acceptableAnswers.includes(guess.toLowerCase());
     setGuess('');
     if (result) {
+      setStreakValue((x: number) => x + 1);
       setWinner(true);
       setFinished(true);
     } else if (attempts <= 1) {
+      setStreakValue(0);
       setIsActive(true);
       setFinished(true);
     } else {
@@ -53,6 +58,17 @@ export default function Fights({
     }
   }, [isActive]);
 
+  useEffect(() => {
+    const streak = localStorage.getItem('streak');
+    if (streak) {
+      setStreakValue(Number(streak));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('streak', streakValue.toString());
+  }, [streakValue]);
+
   return (
     <main className={styles.main}>
       <div className={`${isActive ? styles.blink : ''}`}></div>
@@ -64,6 +80,7 @@ export default function Fights({
         setGuess={setGuess}
         finished={finished}
         allFighters={allFighters}
+        streakValue={streakValue}
       />
       <Answer
         fighterName={fighterName}

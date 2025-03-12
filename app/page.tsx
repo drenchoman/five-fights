@@ -2,6 +2,7 @@ import Fights from './components/fights/fights';
 import { randomIntFromInterval } from './helpers/randomIntFromInterval';
 import { getFighterFromJson } from './helpers/getFighterFromJson';
 import { getAllFightersFromJson } from './helpers/getAllFightersFromJson';
+import sampleRespone from './json/sampleresponse.json';
 async function getFighterData() {
   const fighter = await getFighterFromJson();
   const res = await fetch(
@@ -50,8 +51,17 @@ function filterFights(data: any) {
 }
 
 export default async function Home() {
+  // Restore for full function
   const { fights, fighter } = await getFighterData();
   const allFighters = await getAllFightersFromJson();
+
+  // const fights = filterFights(sampleRespone);
+  // const fighter = {
+  //   firstName: 'Conor',
+  //   lastName: 'Mcgregor',
+  //   nation: 'Ireland',
+  //   fullName: 'Conor Mcgregor',
+  // };
 
   return (
     <Fights

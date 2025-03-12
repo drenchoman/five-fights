@@ -14,6 +14,10 @@ const updates: Updates[] = [
       'Added 10 new fighters.',
     ],
   },
+  {
+    date: '12/03/2025',
+    updates: ['Added Streak 🔥', 'Added new animation for answer'],
+  },
 ];
 
 export default function Changes() {

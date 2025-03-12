@@ -7,7 +7,7 @@
     monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 11 214 255 / 10%;
   --background-end-rgb: 255, 255, 255;
 }
 
